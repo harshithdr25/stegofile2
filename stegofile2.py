@@ -35,7 +35,7 @@ def decrypt_message(encrypted_image, password, secret_message_length, original_s
     else:
         print("Authentication failed. Incorrect password.")
 
-image_path = "flower.jpg"
+image_path = "motorcycle.jpg"
 secret_message = input("Enter the secret message: ")
 password = input("Enter a password: ")
 
